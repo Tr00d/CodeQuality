@@ -5,6 +5,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{32D7DF4B-FD1E-4EB3-8CFD-75ABB2087ABE}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		B3 - Qualité de Code.pdf = B3 - Qualité de Code.pdf
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{533C1C9E-9966-401E-BA11-A96A82649B1A}"
