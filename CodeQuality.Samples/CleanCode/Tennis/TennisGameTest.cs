@@ -62,16 +62,17 @@ public class TennisGameTest
     [ClassData(typeof(TestDataGenerator))]
     public void Tennis1Test(int p1, int p2, string expected)
     {
-        var game = new TennisGame("player1", "player2");
+        var player1 = new TennisPlayer("player1");
+        var player2 = new TennisPlayer("player2");
         var highestScore = Math.Max(p1, p2);
         for (var i = 0; i < highestScore; i++)
         {
             if (i < p1)
-                game.WonPoint("player1");
+                player1.WinPoint();
             if (i < p2)
-                game.WonPoint("player2");
+                player2.WinPoint();
         }
 
-        Assert.Equal(expected, game.GetScore());
+        Assert.Equal(expected, new TennisGame().GetScore(player1, player2));
     }
 }

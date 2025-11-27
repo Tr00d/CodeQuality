@@ -14,10 +14,10 @@ public class YahtzeeGameTest
     [Fact]
     public void Fact_1s()
     {
-        Assert.True(YahtzeeGame.Ones(1, 2, 3, 4, 5) == 1);
-        Assert.Equal(2, YahtzeeGame.Ones(1, 2, 1, 4, 5));
-        Assert.Equal(0, YahtzeeGame.Ones(6, 2, 2, 4, 5));
-        Assert.Equal(4, YahtzeeGame.Ones(1, 2, 1, 1, 1));
+        Assert.True(new YahtzeeGame(1, 2, 3, 4, 5).Ones() == 1);
+        Assert.Equal(2, new YahtzeeGame(1, 2, 1, 4, 5).Ones());
+        Assert.Equal(0, new YahtzeeGame(6, 2, 2, 4, 5).Ones());
+        Assert.Equal(4, new YahtzeeGame(1, 2, 1, 1, 1).Ones());
     }
 
     [Fact]
@@ -100,9 +100,9 @@ public class YahtzeeGameTest
     [Fact]
     public void three_of_a_kind()
     {
-        Assert.Equal(9, YahtzeeGame.ThreeOfAKind(3, 3, 3, 4, 5));
-        Assert.Equal(15, YahtzeeGame.ThreeOfAKind(5, 3, 5, 4, 5));
-        Assert.Equal(9, YahtzeeGame.ThreeOfAKind(3, 3, 3, 3, 5));
+        Assert.Equal(9, new YahtzeeGame(3, 3, 3, 4, 5).ThreeOfAKind());
+        Assert.Equal(15,  new YahtzeeGame(5, 3, 5, 4, 5).ThreeOfAKind());
+        Assert.Equal(9,  new YahtzeeGame(3, 3, 3, 3, 5).ThreeOfAKind());
     }
 
     [Fact]
