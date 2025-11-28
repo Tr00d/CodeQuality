@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{533C1C9E-996
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeQuality.LoadTesting", "CodeQuality.LoadTesting\CodeQuality.LoadTesting.csproj", "{E646A5B4-902A-43F5-86B6-2200CA24830F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeQuality.Evaluation", "CodeQuality.Evaluation\CodeQuality.Evaluation.csproj", "{58CE25D9-41F6-4EAB-B27F-59FFB72A63B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,5 +31,9 @@ Global
 		{E646A5B4-902A-43F5-86B6-2200CA24830F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E646A5B4-902A-43F5-86B6-2200CA24830F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E646A5B4-902A-43F5-86B6-2200CA24830F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CE25D9-41F6-4EAB-B27F-59FFB72A63B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CE25D9-41F6-4EAB-B27F-59FFB72A63B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CE25D9-41F6-4EAB-B27F-59FFB72A63B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CE25D9-41F6-4EAB-B27F-59FFB72A63B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
